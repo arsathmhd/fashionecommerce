@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li,h1,ul{
+    display: inline-block;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    margin-left: 40%;
+}
+
+body{
+    background-color:#fffcf4d0;
+}
+
+li{
+    margin-left: 50px;
+}
+
+h1{
+    display: inline;
+    margin-left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar{
+    background-color: bisque;
+    padding: 25px;
+    text-align: center;
+}
+
+input{
+    width: 450px;
+    padding: 12px;
+    display: inline;
+   
+}
+
+.searchbar{
+margin-top: 35px;
+padding-right: 35px;
+    margin-left: 40%;
+    text-align:justify;
+}
+
+.list{
+   padding: 8px;
+  display: inline;
+  margin-right: 60px;
+  padding-right: 40px;
+
+}
+ .box1,.box2,.box3,.box4{
+
+    margin-top: 50px;
+        border-radius: 8px;
+    border-width: 1px;
+    border-color: rgb(70, 45, 45);
+    border-style: solid;
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgba(50,50,93,0.25)0px 6px 12px -2px,
+    rgba(0,0,0,0.3) 0px 3px 7px -3px;
+    cursor: pointer;
+}
+
+.box1:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+.box2:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+.box3:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+.box4:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+
+
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,
+.box8,.box9,.box10,.box11,.box12,.box13,
+.box14,.box15,.box16,.p1,.p2,.p3,.p4,.imgabt,.abtimg,.cntimg{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover,.box7:hover,.box8:hover,.box9:hover,.box10:hover,.box11:hover,.box12:hover,.box13:hover,.box14:hover,.box15:hover,.box16:hover ,.p1:hover,
+.p2:hover,
+.p3:hover,
+.p4:hover ,.imgabt:hover ,.abtimg:hover,.cntimg:hover {
+    transform: scale(1.06);
+    box-shadow: 5 10px 12px  rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.casualshirts{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.box2,.box3,.box4{
+  margin-left: 8% ;
+}
+
+.box5,
+.box6,
+.box7,
+.box8 {
+
+    margin-top: 50px;
+        border-radius: 8px;
+    border-width: 1px;
+    border-color: rgb(70, 45, 45);
+    border-style: solid;
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25)0px 6px 12px -2px,
+            rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    cursor: pointer;
+}
+
+.box5:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+.box6:hover{
+    background-color:rgb(190, 237, 255);
+    color:black;
+}
+
+.box7:hover{
+    background-color: rgb(190, 237, 255);
+        color: black;
+}
+
+.box8:hover{
+    background-color: rgb(190, 237, 255);
+        color:black;
+}
+
+.casualpants{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.box6,.box7,.box8{
+    margin-left: 8%;
+}
+
+.box9,
+.box10,
+.box11,
+.box12{
+
+    margin-top: 50px;
+        border-radius: 8px;
+    border-width: 1px;
+    border-color: rgb(70, 45, 45);
+    border-style: solid;
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25)0px 6px 12px -2px,
+            rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    cursor: pointer;
+}
+
+.box9:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+.box10:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+.box11:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+.box12:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+.formalshirts{
+text-align: center;
+margin-top: 40px;
+
+}
+
+.box10,.box11,.box12{
+    margin-left: 8%;
+}
+
+.box13,
+.box14,
+.box15,
+.box16 {
+
+    margin-top: 50px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgb(70, 45, 45);
+    border-style: solid;
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25)0px 6px 12px -2px,
+            rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    cursor: pointer;
+}
+
+.box13:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+.box14:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+.box15:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+.box16:hover {
+    background-color: rgb(190, 237, 255);
+    color: black;
+}
+
+.formalpants{
+text-align: center;
+margin-top: 40px;
+margin-bottom: 80px;
+}
+
+.box14,.box15,.box16{
+
+    margin-left: 8%;
+}
+
+.cart1,.cart2,.cart3,.cart4{
+    width: 80px;
+    height: 2px;
+}
+
+.about{
+        background-color:#fffcf4d0;
+       
+        color:black;
+        padding: 30px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    background-color:#ffc04ad0;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px #000;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #721308d9;
+    color: wheat;
+}
+
+.contact{
+    background-color:#fffcf4d0;
+  
+    padding: 30px;
+}
+
+.c1,.c2,.c3{
+    margin-top: 30px;
+    text-align:center;
+}
+
+.products,.products2{
+    margin: 50px;
+
+}
+
+a{
+    cursor: pointer;
+    color: black;
+
+}
+
+a:hover{
+    color:brown;
+}
+
+.p1,.p2,.p3,.p4{
+    border-radius: 35px;
+    border-width: 1.2px;
+        border-style: solid;
+        border-color: rgb(68, 0, 0);
+        box-shadow: rgba(50, 50, 93, 0.25)0px 6px 12px -2px,
+                rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
